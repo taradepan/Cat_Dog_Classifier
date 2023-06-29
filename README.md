@@ -8,5 +8,5 @@ To use this Repo:
 4. install the required pckages using `pip install <package_name>` : Flask, Tensorflow, pandas, Numpy, OpenCV.
 5. `flask run`.
 
-Now use the web browser to upload the images and classify.
+Now, use the web browser to upload the images and classify.
 Have Fun :)
