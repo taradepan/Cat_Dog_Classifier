@@ -24,7 +24,6 @@ def index():
             image_file.save(image_location)
             imag = image_location
             pred = make_predict(imag) 
-            #delete the image
             os.remove(image_location)
                        
             return render_template('index.html', prediction=pred)
